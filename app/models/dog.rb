@@ -3,7 +3,7 @@ class Dog
   attr_reader :breed
 
   @@all = []
-  def all
+  def self.all
     @@all
   end
 
